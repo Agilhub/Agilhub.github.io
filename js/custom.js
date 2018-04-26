@@ -98,7 +98,6 @@ $(function(){
     jQuery(document).ready(function() {
     $('#home').backstretch([
        "images/home-bg-slideshow01.jpg",
-       "images/home-bg-slideshow02.jpg",
         ],  {duration: 5000, fade: 750});
     });
   })
