@@ -1,0 +1,17 @@
+.font-alt {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.alert {
+  border-radius: 2px;;
+}
+.well-lg {
+  border-radius: 2px;
+}
+.well {
+  border-radius: 2px;
+  box-shadow: none;
+}
+.well-sm {
+  border-radius: 2px;
+}

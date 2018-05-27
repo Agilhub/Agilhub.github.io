@@ -1,0 +1,178 @@
+/*------------- 5. work-area ---------------*/
+.work-area{}
+.portfolio-wrapper{margin: 0;
+position: relative;}
+.portfolio-wrapper img{}
+.work-text {
+  backface-visibility: hidden;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: transform 0.3s ease 0s, opacity 0.3s ease 0s;
+  width: 100%;
+  z-index: 9;
+}
+.work-text h3 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.work-text h3 a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.work-text span {
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+}
+.work-text a {
+  color: #fff;
+}
+.work-text a.view-portfolio:hover{background:#fff;}
+.view-portfolio {
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  height: 60px;
+  padding: 5px 25px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60px;
+  z-index: 99;
+}
+.view-portfolio::before,.view-portfolio::after {
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 30px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+  transition: all 0.3s ease 0s;
+}
+.view-portfolio::after {
+  height: 1px;
+  width: 30px;
+}
+.work-text a.view-portfolio:hover::before,.work-text a.view-portfolio:hover::after {background:#000;}
+.work-text a i{font-size: 26px;}
+.portfolio-wrapper:hover .work-text{opacity: 1;
+transform: translate(15px, 15px);}
+.inner-text {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.load-more {}
+.load-more a{}
+.load-more a i{margin-right:5px}
+.portfolio-title {
+ transition: box-shadow 0.3s ease 0s;
+}
+.portfolio-title:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.portfolio-title:hover .portfolio-heading{
+  border: 1px solid transparent;
+  border-top:0;
+}
+.portfolio-img {
+  position: relative;
+}
+.portfolio-title:hover .work-text {
+  transform: inherit;
+}
+.portfolio-title .work-text {
+  bottom: 15px;
+  height: inherit;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  width: inherit;
+}
+.portfolio-heading {
+  border: 1px solid #eee;
+  overflow: hidden;
+  border-top:0;
+}
+.portfolio-heading h4 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.portfolio-heading h5 {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.portfolio-wrapper .brand-bg {
+  background: rgba(3, 169, 244, 0.8) none repeat scroll 0 0;
+}
+.portfolio-details{}
+.portfolio-details h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.portfolio-details span{}
+.portfolio-details span a {
+  color: #03a9f4;
+  font-size: 15px;
+  font-weight: 600;
+}
+.portfolio-details p{}
+.portfolio-meta{}
+.portfolio-meta ul{}
+.portfolio-meta ul li {margin: 15px 0;}
+.portfolio-meta ul li span {
+  color: #202020;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 130px;
+}
+.portfolio-meta ul li a {
+  color: #666;
+  margin-right: 5px;
+}
+.portfolio-meta ul li a:hover {
+  color: #03A9F4;
+}
+/* portfolio filter */
+.portfolio-menu{}
+.brand-filter div.active, .brand-filter div:hover {
+  background: #03A9F4 none repeat scroll 0 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+}
+.portfolio-menu div {
+  background: #eee none repeat scroll 0 0;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0 4px;
+  padding: 7px 22px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+#Container .mix{
+	display: none;
+}
+.section-heading i {
+  display: block;
+  font-size: 55px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+/* breadcrumb */
+.breadcrumb-title{}
+.breadcrumb-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  line-height: 1.8;
+  margin: 0;
+  opacity: 0.9;
+  position: relative;
+  text-transform: uppercase;
+}
+.breadcrumb-menu {
+  margin-top: 11px;
+}
+.breadcrumb-menu .breadcrumb {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb-menu .breadcrumb li {
+  display: inline-block;
+}
+.breadcrumb-menu .breadcrumb li a, .breadcrumb > .active {
+  color: #fff;
+  font-family: "Dosis",sans-serif;
+  letter-spacing: 0.2em;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+.breadcrumb > .active {
+  color: #ddd;
+}
+.breadcrumb.text-black > .active {
+  color: #999;
+}
+.breadcrumb.text-black > .active {
+  color: #999;
+}
+.breadcrumb-menu .breadcrumb li a:hover{color:#03A9F4}
+.breadcrumb-menu .breadcrumb.text-black li a {
+  color: #363636;
+}

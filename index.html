@@ -1,370 +1,542 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>agilhub - software criativo</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="software">
-	<meta name="description" content="Trabalhamos de forma ágil e criativa no desenvolvimento, projeto e manutenção de aplicações para a Web e Mobile.">
-  	<meta name="author" content="Algorich - http://algorich.com.br">
-  	<meta property="og:type" content="business.business">
-  	<meta property="og:locale" content="pt_BR" />
-	<meta property="og:url" content="http://agilhub.com">
-	<meta property="og:title" content="Agilhub — Seu software, nosso negócio">
-	<meta property="og:description" content="Trabalhamos de forma ágil e criativa no desenvolvimento, projeto e manutenção de aplicações para a Web e Mobile.">
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Home Version Video</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- <meta property="business:contact_data:street_address" content="Rua Alfredo Coutinho, 74"> -->
-	<meta property="business:contact_data:locality" content="Recife">
-	<!-- <meta property="business:contact_data:postal_code" content="52061-130"> -->
-	<meta property="business:contact_data:country_name" content="Brasil">
-	<meta property="business:contact_data:region" content="Pernambuco">
-	<meta property="business:contact_data:email" content="contato@agilhub.com">
-	<!-- <meta property="business:contact_data:phone_number" content="+55 (81) 3265-6038"> -->
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/et-line-font.css">
-	<link rel="stylesheet" href="css/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
-	<link rel="stylesheet" href="css/toastr.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="images/favicon/site.webmanifest">
-	<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
-	<meta name="msapplication-TileColor" content="#2b5797">
-	<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
-	<meta name="theme-color" content="#ffffff">
-</head>
-<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800" rel="stylesheet">
 
-<!-- preloader section -->
-<div class="preloader">
-	<div class="sk-spinner sk-spinner-circle">
-       <div class="sk-circle1 sk-circle"></div>
-       <div class="sk-circle2 sk-circle"></div>
-       <div class="sk-circle3 sk-circle"></div>
-       <div class="sk-circle4 sk-circle"></div>
-       <div class="sk-circle5 sk-circle"></div>
-       <div class="sk-circle6 sk-circle"></div>
-       <div class="sk-circle7 sk-circle"></div>
-       <div class="sk-circle8 sk-circle"></div>
-       <div class="sk-circle9 sk-circle"></div>
-       <div class="sk-circle10 sk-circle"></div>
-       <div class="sk-circle11 sk-circle"></div>
-       <div class="sk-circle12 sk-circle"></div>
-    </div>
-</div>
+		<!-- all css here -->
+		<!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- bootstrap css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- magnific-popup css -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		<!-- et-line fonts css -->
+        <link rel="stylesheet" href="css/et-line.css">
+		<!-- animate-text css -->
+        <link rel="stylesheet" href="css/animate-text.css">
+		<!-- pe-icon-7-stroke fonts css -->
+        <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+		<!-- Theme shortcodes/elements style -->
+		<link rel="stylesheet" href="css/shortcode/shortcodes.css">
+		<!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- YTPlayer css -->
+		<link rel="stylesheet" href="css/YTPlayer.css">
+		<!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- style css -->
+        <link rel="stylesheet" href="css/style.css">
+		<!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-<!-- navigation section -->
-<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="/" class="navbar-brand"><img style="margin-top: -4px;" src="images/logo.png" alt="Agilhub"></a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#work" class="smoothScroll">SERVIÇOS</a></li>
-				<li><a href="#about" class="smoothScroll">SOBRE</a></li>
-				<li><a href="#team" class="smoothScroll">EQUIPE</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTATO</a></li>
-			</ul>
-		</div>
-	</div>
-</section>
+        <!-- Add your site or application content here -->
 
-<!-- home section -->
-<section id="home">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<img src="images/logo-big.png" alt="Logo Agilhub">
-				<!-- <hr> -->
-				<!-- <p class="slogan">software criativo</p> -->
-				<div class="clearfix"></div>
-				<a href="#work" class="smoothScroll btn btn-default">O que fazemos</a>
-				<a href="#contact" class="smoothScroll btn btn-default">Fale conosco</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- work section -->
-<section id="work">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<h1 class="heading bold">O QUE FAZEMOS</h1>
-					<hr>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-				<i class="icon-cloud medium-icon"></i>
-					<h3>SISTEMAS WEB</h3>
-					<hr>
-					<p>Desenvolvemos softwares para a web. </p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-laptop medium-icon"></i>
-					<h3>ECOMMERCE</h3>
-					<hr>
-					<p>Se você precisa viabilizar transações comerciais via web, pode contar conosco!</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-phone medium-icon"></i>
-					<h3>MOBILE APP</h3>
-					<hr>
-					<p>Desenvolvemos aplicativos para todas as plataformas móveis.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-lg-offset-2 wow fadeInUp" data-wow-delay="0.9s">
-				<i class="icon-mobile medium-icon"></i>
-					<h3>UI &amp; UX DESIGN</h3>
-					<hr>
-					<p>A excelente experiência do usuário com nossos produtos é nossa prioridade.</p>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-refresh medium-icon"></i>
-					<h3>PROCESSOS</h3>
-					<hr>
-					<p>Talvez você precise apenas ajustar processos. Teremos grande satisfação em atendê-lo.</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- about section -->
-<section id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<h1 class="heading bold">NOSSA EMPRESA</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<img src="images/about-img.jpg" class="img-responsive" alt="Nossa Empresa">
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<h4 class="bold">SEU SOFTWARE, NOSSO NEGÓCIO</h4>
-				<!-- <h1 class="heading bold">Seu software nosso negócio</h1> -->
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">MISSÃO</a></li>
-					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">VISÃO</a></li>
-					<li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">VALORES</a></li>
-				</ul>
-				<!-- tab panes -->
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active" id="design">
-						<p>Oferecer serviços e produtos de qualidade por meio de soluções criativas, tecnologias inovadoras por meio  de profissionais qualificados que contribuem para o sucesso e satisfação do cliente.</p>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="mobile">
-						<p>Ser reconhecida como uma empresa sólida, em nível nacional e internacional , no segmento de desenvolvimento de softwares e soluções inteligentes em tecnologia da informação.</p>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="social">
-						<p>
-							<strong>Inovação:</strong>
-							Investir continuamente em novas tecnologias e na capacitação dos nossos profissionais;
-						</p>
-						<p>
-							<strong>Compromisso com o cliente:</strong>
-							Foco no que agrega valor ao cliente, cumprimento integral dos prazos e dos objetivos estabelecidos;
-						</p>
-						<p>
-							<strong>Ética:</strong>
-							Agir profissionalmente, respeitando todas as partes envolvidas nos processos;
-						</p>
-						<p>
-							<strong>Qualidade:</strong>
-							Garantir a qualidade de todos os processos, buscando sempre a melhoria continua dos nossos serviços e produtos.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!-- team section -->
-<section id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<h1 class="heading bold">NOSSA EQUIPE</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
-				<div class="team-wrapper">
-					<img src="images/team2.jpg" class="img-responsive" alt="Diego Sá">
-					<div class="team-des">
-						<h4>Diego Sá</h4>
-						<h3>Software Developer</h3>
-						<hr>
-						<ul class="social-icon">
-							<li><a href="http://twitter.com/diiego_sa" target="_blank" class="fa fa-twitter wow fadeIn" data-wow-delay="0.3s"></a></li>
-							<li><a href="#" target="_blank" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
-							<li><a href="http://github.com/diiegoSa" target="_blank" class="fa fa-github wow fadeIn" data-wow-delay="0.9s"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">
-				<div class="team-wrapper">
-					<img src="images/team1.jpg" class="img-responsive" alt="Fábio Santos">
-						<div class="team-des">
-							<h4>Fabio Santos</h4>
-							<h3>Software Developer</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="http://twitter.com/fabitorecife" target="_blank" class="fa fa-twitter wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="http://linkedin.com/in/f%C3%A1bio-santos-5a406831" target="_blank" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="http://github.com/fss6" target="_blank" class="fa fa-github wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
+        <!-- Start of header area -->
+        <header id="sticky-header" class="header-area header-wrapper top-header">
+            <div class="header-middle-area full-width">
+                <div class="container">
+                    <div class="full-width-mega-dropdown">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-3 col-xs-8">
+                                <div class="logo ptb-22"><a href="index.html"> <img src="img/logo/logo.png" alt="main logo"></a></div>
+                            </div>
+                            <div class="col-md-10 col-sm-9 col-xs-4 text-right">
+								<div class="header-main-menu hidden-xs">
+									<nav id="primary-menu">
+										<ul class="main-menu menu-text-white text-right">
+											<li><a href="#">Sobre</a></li>
+											<li><a href="#">Serviços</a></li>
+											<li><a href="#">Equipe</a></li>
+											<li><a href="#">Contato</a></li>
+										</ul>
+									</nav>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!-- mobile-menu-area start -->
+			<div class="mobile-menu-area visible-xs">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mobile-menu">
+								<nav id="dropdown">
+									<ul>
+										<li><a href="#">Sobre</a></li>
+										<li><a href="#">Serviços</a></li>
+										<li><a href="#">Equipe</a></li>
+										<li><a href="#">Contato</a></li>
+									</ul>
+								</nav>
+							</div>
 						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/team4.jpg" class="img-responsive" alt="Julihermes Melo">
-					<div class="team-des">
-						<h4>Julihermes Melo</h4>
-						<h3>Software Developer</h3>
-						<hr>
-						<ul class="social-icon">
-							<li><a href="http://twitter.com/julihermes" target="_blank" class="fa fa-twitter wow fadeIn" data-wow-delay="0.3s"></a></li>
-							<li><a href="http://linkedin.com/in/julihermes" target="_blank" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
-							<li><a href="http://github.com/julihermes" target="_blank" class="fa fa-github wow fadeIn" data-wow-delay="0.9s"></a></li>
-						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/team3.jpg" class="img-responsive" alt="Rhurick Christian">
-						<div class="team-des">
-							<h4>Rhurick Christian</h4>
-							<h3>Software Developer</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="http://twitter.com/RhurickC" target="_blank" class="fa fa-twitter wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="http://linkedin.com/in/rhurick-c-5b71563a" target="_blank" class="fa fa-linkedin wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="http://github.com/rhchristian" target="_blank" class="fa fa-github wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
+			<!-- mobile-menu-area end -->
+        </header>
+		<!-- slider-area start -->
+		<section id="video-bg" class="slider-area video-bg-img">
+			<div class="single-slider bg-100vh z-index-5 h">
+				<a class="player" data-property="{videoURL:'https://youtu.be/9d8wWcJLnFI',containment:'#video-bg', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
+				<div class="slider-content slider-style-2 text-center">
+					<span>Hello & Welcome </span>
+					<h2 class="cd-headline clip is-full-width">
+						<span>We make awesome </span>
+						<span class="cd-words-wrapper">
+							<b class="is-visible">Website</b>
+							<b>Portfolio</b>
+							<b>Business</b>
+						</span>
+					</h2>
+					<a class="my-button" href="#">Learn more </a>
+					<a class="my-button" href="#">PLAY REEL</a>
+				</div>
+			</div>
+		</section>
+		<!-- slider-area end -->
+		<!-- who-area-are start -->
+		<section class="who-area-are bg-color pad-90">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="who-we">
+							<h2 class="title-1">Who we are</h2>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl</p>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl </p>
 						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="our-skill">
+							<h2 class="title-1">Our skills</h2>
+							<div class="progress-list">
+								<div class="progress">
+									<div class="lead">Web Design</div>
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span>90%</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="lead">Web Development</div>
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span>80%</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="lead">Photography</div>
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span>75%</span>
+									</div>
+								</div>
+								<div class="progress">
+									<div class="lead">Java Script</div>
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"> <span>60%</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- who-area-are end -->
+		<!-- service-area start -->
+		<section class="service-area pt-90 pb-60">
+			<div class="container">
+				<div class="row">
+					<div class="section-heading text-center mb-70">
+						<h2>Our Service</h2>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-service radius-4 brand-hover mb-30 text-center">
+							<div class="service-icon">
+								<span class="icon-camera " aria-hidden="true"></span>
+							</div>
+							<div class="service-text">
+								<h3>Photography</h3>
+								<p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-service brand-hover active radius-4 mb-30 text-center">
+							<div class="service-icon">
+								<span class="icon-tools " aria-hidden="true"></span>
+							</div>
+							<div class="service-text">
+								<h3>Web Design</h3>
+								<p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-service brand-hover radius-4 mb-30 text-center">
+							<div class="service-icon">
+								<span class="icon-mobile" aria-hidden="true"></span>
+							</div>
+							<div class="service-text">
+								<h3>Responsive</h3>
+								<p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-service brand-hover radius-4 mb-30 text-center">
+							<div class="service-icon">
+								<span class="icon-strategy " aria-hidden="true"></span>
+							</div>
+							<div class="service-text">
+								<h3>Development</h3>
+								<p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-service brand-hover radius-4 mb-30 text-center">
+							<div class="service-icon">
+								<span class="icon-video " aria-hidden="true"></span>
+							</div>
+							<div class="service-text">
+								<h3>Video</h3>
+								<p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<div class="single-service brand-hover radius-4 mb-30 text-center">
+							<div class="service-icon">
+								<span class="icon-lightbulb" aria-hidden="true"></span>
+							</div>
+							<div class="service-text">
+								<h3>Branding</h3>
+								<p>Porttitor communicate pandemic data rather than enabled niche pandemic data rather markets neque pulvinar vitae.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- service-area end -->
+		<!-- testimonial-area start -->
+		<section class="testimonial-area parallax-active bg-img black-opacity pad-90">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="testimonial-active dots-style">
+							<div class="single-testimonial white-text text-center">
+								<div class="testimonial-title">
+									<span class="icon-quote"></span>
+									<h3 class="white-text">What client say?</h3>
+								</div>
+								<p><span>"</span>Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!<span>"</span></p>
+								<div class="testimonial-author text-uppercase">
+									<span>- Hero alom, joss  inc. </span>
+								</div>
+							</div>
+							<div class="single-testimonial white-text text-center">
+								<div class="testimonial-title">
+									<span class="icon-quote"></span>
+									<h3 class="white-text">What client say?</h3>
+								</div>
+								<p><span>"</span>Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!<span>"</span></p>
+								<div class="testimonial-author text-uppercase">
+									<span>- Hero alom, joss  inc. </span>
+								</div>
+							</div>
+							<div class="single-testimonial white-text text-center">
+								<div class="testimonial-title">
+									<span class="icon-quote"></span>
+									<h3 class="white-text">What client say?</h3>
+								</div>
+								<p><span>"</span>Phasellus luctus commodo ullamcorper a posuere rhoncus commodo elit. Aenean congue, risus utaliquam dapibus. Thanks!<span>"</span></p>
+								<div class="testimonial-author text-uppercase">
+									<span>- Hero alom, joss  inc. </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- testimonial-area end -->
+		<!-- team-area start -->
+		<div class="team-area bg-opacity-white-90 parallax-active bg-img-5 pt-90 pb-60">
+			<div class="container z-index">
+				<div class="row">
+					<div class="section-heading text-center mb-70">
+						<h2>OUR CREATIVE MINDS</h2>
+						<p>Adipiscing elit curabitur eu adipi of scing lacus eu adipiscing lacus.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-4 hidden-sm">
+						<div class="single-team-2 mb-30">
+							<div class="team-img">
+								<img src="img/team/team-5.jpg" alt="" />
+							</div>
+							<div class="team-info">
+								<h4>mickel hilari</h4>
+								<span>Creative designer</span>
+								<p>Adipiscing elit curabitur eu adipi of scing lacus eu adipiscing lacus.</p>
+								<div class="team-icon">
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="single-team-2 mb-30">
+							<div class="team-img">
+								<img src="img/team/team-8.jpg" alt="" />
+							</div>
+							<div class="team-info">
+								<h4>jotaon hill</h4>
+								<span>Creative actor</span>
+								<p>Adipiscing elit curabitur eu adipi of scing lacus eu adipiscing lacus.</p>
+								<div class="team-icon">
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="single-team-2 mb-30">
+							<div class="team-img">
+								<img src="img/team/team-6.jpg" alt="" />
+							</div>
+							<div class="team-info">
+								<h4>jon doe</h4>
+								<span>Creative developer</span>
+								<p>Adipiscing elit curabitur eu adipi of scing lacus eu adipiscing lacus.</p>
+								<div class="team-icon">
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4">
+						<div class="single-team-2 mb-30">
+							<div class="team-img">
+								<img src="img/team/team-7.jpg" alt="" />
+							</div>
+							<div class="team-info">
+								<h4>Anonto jalil</h4>
+								<span>Creative actor</span>
+								<p>Adipiscing elit curabitur eu adipi of scing lacus eu adipiscing lacus.</p>
+								<div class="team-icon">
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-
-<!-- contact section -->
-<section id="contact">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<h1 class="heading bold">CONTATO</h1>
-					<hr>
+		<!-- footer start -->
+		<footer>
+			<div class="footer-top-area footer-bg pad-70">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-4">
+							<div class="footer-widget">
+								<div class="footer-logo">
+									<a href="#"><img src="img/logo/logo.png" alt="" /></a>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet hendrerit volutpat. Sed in nunc nec ligula consectetur mollis. </p>
+								<div class="social-icon theme-color-hover">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4 hidden-sm">
+							<div class="footer-widget">
+								<h3 class="widget-title">latest post</h3>
+								<ul class="latest-post theme-color-hover">
+									<li>
+										<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+										<span>February 05, 16</span>
+									</li>
+									<li>
+										<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+										<span>February 05, 16</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4">
+							<div class="footer-widget">
+								<h3 class="widget-title">Latest Tweets</h3>
+								<ul class="latest-tweets theme-color-hover">
+									<li>
+										<i class="fa fa-twitter"></i>
+										 If you have any suggestions for the next updates, let us know.
+										<span class="meta">
+											<a href="#">07:05 AM Sep 18th</a>
+										</span>
+									</li>
+									<li>
+										<i class="fa fa-twitter"></i>
+										 If you have any suggestions for the next updates, let us know.
+										<span class="meta">
+											<a href="#">07:05 AM Sep 18th</a>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-4">
+							<div class="footer-widget">
+								<h3 class="widget-title">Get in touch</h3>
+								<ul class="get-in-touch">
+									<li>
+										<i class="fa fa-map-marker"></i>
+										<b>Address:</b> Street Name, United States
+									</li>
+									<li>
+										<i class="fa fa-phone"></i>
+										<b>Phone:</b> (123) 456-789
+									</li>
+									<li>
+										<i class="fa fa-envelope"></i>
+										<b>Email:</b> mail@example.com
+									</li>
+									<li>
+										<i class="fa fa-skype"></i>
+										<b>Skype:</b> jondoe
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-12 contact-info">
-				<h2 class="heading bold">INFORMAÇÕES DE CONTATO</h2>
-				<p>Preencha o formulário ao lado para entrar em contato conosco. Teremos prazer em atendê-lo!</p>
-				<div class="col-md-6 col-sm-4">
-					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-					<p>contato@agilhub.com</p>
+			<div class="footer-bottom-area pad-20 footer-bg-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-5 col-sm-12">
+							<div class="copyright">
+								<p>Copyright © <a href="#">Primax</a>. All Rights Reserved</p>
+							</div>
+						</div>
+						<div class="col-lg-7 col-md-7 col-sm-12">
+							<div class="footer-nav theme-color-hover">
+								<nav>
+									<ul>
+										<li><a href="#">home</a></li>
+										<li><a href="#">about</a></li>
+										<li><a href="#">service</a></li>
+										<li><a href="#">pricing</a></li>
+										<li><a href="#">team</a></li>
+										<li><a href="#">portfolio</a></li>
+										<li><a href="#">blog</a></li>
+										<li><a href="#">contact</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
 				</div>
-				<!-- <div class="col-md-6 col-sm-4">
-					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-					<p>010-020-0340 | 090-080-0760</p>
-				</div> -->
 			</div>
-			<div class="col-md-6 col-sm-12">
-				<form id="contactForm" method="POST" class="wow fadeInUp" data-wow-delay="0.6s">
-					<div class="col-md-6 col-sm-6">
-				    	<input type="text" class="form-control" name="name" id="name" placeholder="Seu nome" required>
-				    </div>
-				    <div class="col-md-6 col-sm-6">
-				    	<input type="email" class="form-control" name="mail" id="mail" placeholder="Seu email" required>
-				    </div>
-				    <input type="hidden" name="_subject" value="Website contact" />
-				    <div class="col-md-12 col-sm-12">
-				    	<textarea class="form-control" name="message" id="message" rows="7" placeholder="Sua mensagem" required></textarea>
-				    </div>
-				    <input type="text" name="_gotcha" style="display:none" />
-				    <div class="col-md-offset-1 col-md-1"><br/>
-				    	<span class="sr-only">Loading...</span>
-				    	<i class="fa fa-spinner fa-spin fa-3x fa-fw hidden" id="loading-icon"></i>
-				    </div>
-				    <div class="col-md-offset-2 col-md-8 col-sm-offset-4 col-sm-8" >
-				    	<input type="submit" class="form-control" value="ENVIAR" id="submit-btn">
-				    </div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
+		</footer>
+		<!-- footer end -->
 
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright © <a href="http://www.agilhub.com">Agilhub.com</a></p>
-				<hr>
-				<ul class="social-icon">
-					<li><a href="https://facebook.com/agilhub/" class="fa fa-facebook wow fadeIn" target="_blank" data-wow-delay="0.3s"></a></li>
-					<li><a href="https://twitter.com/agilhub" class="fa fa-twitter wow fadeIn"  target="_blank" data-wow-delay="0.6s"></a></li>
-					<li><a href="https://linkedin.com/company/10817791" class="fa fa-linkedin wow fadeIn"  target="_blank" data-wow-delay="0.9s"></a></li>
-					<li><a href="https://github.com/agilhub" class="fa fa-github wow fadeIn"  target="_blank" data-wow-delay="1.2s"></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
-
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/nivo-lightbox.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/toastr.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/script.js"></script>
-
-<!-- Analitics Google -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-79901435-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</body>
+		<!-- All js here -->
+		<!-- jquery js -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
+		<!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+		<!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+		<!-- counterup js -->
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+		<!-- magnific-popup js -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- plugins js -->
+        <script src="js/animate-text.js"></script>
+		<!-- mixitup js -->
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/jquery.mb.YTPlayer.min.js"></script>
+		<script type="text/javascript">
+			$('.player').mb_YTPlayer();
+		</script>
+		<!-- mixitup js -->
+        <script src="js/jquery.meanmenu.js"></script>
+		<!-- jquery.nav js -->
+        <script src="js/jquery.nav.js"></script>
+		<!-- jquery.nav js -->
+        <script src="js/jquery.parallax-1.1.3.js"></script>
+		<!-- plugins js -->
+        <script src="js/plugins.js"></script>
+		<!-- main js -->
+        <script src="js/main.js"></script>
+    </body>
 </html>

@@ -1,0 +1,56 @@
+/* pricing-area */
+.pricing-area{}
+.single-pricing{}
+.pricing-head {
+  background: #f2eff6 none repeat scroll 0 0;
+  padding: 20px 0;
+}
+.pricing-head h2 {
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+.pricing-head > span {
+  text-transform: capitalize;
+}
+.pricing-plan-price span {
+  color: #fff;
+  font-size: 40px;
+}
+.pricing-plan-price {
+  background: #5f5fa7 none repeat scroll 0 0;
+  line-height: normal;
+  padding: 8px 0;
+}
+.standard-bg {
+  background: #5f5fa7 none repeat scroll 0 0;
+}
+.premium-bg {
+  background: #e83948 none repeat scroll 0 0;
+}
+.basic-bg{
+  background: #03A9F4 none repeat scroll 0 0;
+}
+.unlimited-bg{
+  background: #A558A6 none repeat scroll 0 0;
+}
+.pricing-plan-price span {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.pricing-plan-price span span {
+  font-size: 25px;
+}
+.pricing-plan-list{}
+.pricing-plan-list ul {}
+.pricing-plan-list ul li {
+  line-height: 45px;
+  text-transform: capitalize;
+}
+.pricing-plan-list ul li:nth-child(even){background:#F9F9FB;}
+.pricing-plan-list ul li:nth-child(odd){background:#F5F3F8;}
+.get-started {
+  background: #f2eff6 none repeat scroll 0 0;
+  padding: 30px 0;
+}

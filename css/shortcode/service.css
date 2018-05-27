@@ -1,0 +1,44 @@
+/*------------- 4. service-area ---------------*/
+.service-area{}
+.single-service {
+  border: 1px solid #eee;
+  padding: 20px;
+  transition: all 0.3s ease 0s;
+}
+.service-icon {
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.service-icon span,.service-icon i{
+  font-size: 45px;
+  line-height: 40px;
+}
+.service-text{}
+.service-text h3 {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	transition: .3s;
+	text-transform: uppercase;
+}
+.service-text p {
+  line-height: 30px;
+  margin: 0;
+}
+.brand-hover:hover h3,.brand-hover.active h3{color:#fff}
+.brand-hover:hover,.brand-hover.active {
+  background: #03A9F4 none repeat scroll 0 0;
+  border-color: #03A9F4;
+  color: #fff;
+}
+.service-2{}
+.service-2 .service-icon {
+  float: left;
+  margin-bottom: 0;
+  margin-right: 15px;
+  margin-top: 8px;
+  width: 60px;
+}
+.service-2 .service-text {
+  overflow: hidden;
+}

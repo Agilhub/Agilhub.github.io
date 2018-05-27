@@ -1,0 +1,188 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+/*------------- 7. footer ---------------*/
+.footer-top-area{}
+.footer-widget{}
+.footer-widget p {
+  color: #ccc;
+}
+.footer-logo {
+  margin-bottom: 10px;
+}
+.footer-logo a{color: #ccc;}
+.social-icon{}
+.social-icon a {
+  color: #ccc;
+  font-size: 16px;
+  margin-right: 8px;
+}
+.latest-post{}
+.latest-post li {
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.latest-post li:last-child{margin-bottom:0;}
+.latest-post li a {
+  color: #ccc;
+}
+.theme-color-hover li a:hover {
+  color: #03A9F4;
+}
+.latest-post li span {
+  color: #ccc;
+  display: block;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.widget-title {
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.latest-tweets{}
+.latest-tweets li {
+  color: #ccc;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.latest-tweets li:last-child{margin-bottom:0}
+.latest-tweets li i {
+  color: #00b6f1;
+  margin-right: 6px;
+}
+.meta {
+  display: block;
+  margin-top: 6px;
+}
+.meta a {
+  color: #fff;
+  font-size: 13px;
+}
+.meta a:hover{
+	text-decoration:underline
+}
+.get-in-touch{}
+.get-in-touch li {
+  color: #ccc;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.get-in-touch li i {
+  height: 20px;
+  width: 20px;
+}
+.copyright > p {
+  color: #ccc;
+  margin: 0;
+}
+.copyright a {
+  color: #03a9f4;
+  text-transform: capitalize;
+}
+.footer-nav ul {
+  text-align: right;
+}
+.footer-nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.footer-nav a {
+  color: #ccc;
+  text-transform: capitalize;
+}
+.theme-color-hover a:hover {
+  color: #03A9F4;
+}
+/* footer style 2 */
+.footer-widget-center{}
+.footer-widget-center p {
+  color: #fff;
+}
+.footer-widget-center .social-icon a {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  height: 30px;
+  margin: 0 5px;
+  transform: rotate(45deg);
+  width: 30px;
+}
+.footer-widget-center .social-icon a:hover {
+  background: #fff none repeat scroll 0 0;
+  color:#03A9F4;
+}
+.footer-widget-center .social-icon a i{transform: rotate(-45deg);}
+.footer-border{border-top:1px solid #ddd}
+.footer-nav.white-text a {
+  color: #fff;
+  text-transform: capitalize;
+}
+.footer-nav.white-text li a:hover {
+  color: #81ddff;
+}
+.copyright.white-text a {
+  color: #f1f1f1;
+}
+.copyright.white-text > p {
+  color: #fff;
+}
+.footer-nav.white-text a {
+  color: #fff;
+}
+.white-text .footer-widget p {
+  color: #fff;
+}
+.white-text .social-icon a {
+  color: #fff;
+}
+.white-text .social-icon a:hover {
+  color: #81ddff;
+}
+.white-text .latest-post li a {
+  color: #fff;
+}
+.white-text .latest-post li a:hover {
+  text-decoration:underline
+}
+.white-text .latest-post li span {
+  color: #f1f1f1;
+}
+.white-text .latest-tweets li {
+  color: #fff;
+}
+.white-text .latest-tweets li i {
+  color: #fff;
+}
+.white-text .theme-color-hover li a:hover {
+  color: #81ddff;
+}
+.white-text .meta a:hover {
+  color: #fff;
+}
+.white-text .get-in-touch li {
+  color: #fff;
+}
+.content-box {
+  color: #ddd;
+  text-align: center;
+}
+.content-box-icon {
+  font-size: 36px;
+}
+.content-box-title {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+.footer-border-2 {
+  border-top: 1px solid #a1a1a1;
+}
+.footer-border-3 {
+  border-top: 1px solid #fff;
+}

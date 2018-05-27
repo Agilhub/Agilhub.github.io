@@ -1,0 +1,94 @@
+/*------------- 8. team-area ---------------*/
+.team-area{}
+.single-team{}
+.team-img{position:relative}
+.team-img::before {
+  background: transparent none repeat scroll 0 0;
+  content: " ";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+  width: 100%;
+  z-index: 1;
+}
+.single-team:hover .team-img::before {
+	background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+}
+.team-img img{}
+.team-text {
+  background-size: cover;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  left: 0;
+  opacity: 0;
+  padding: 0 23px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+  width: 100%;
+  z-index: 2;
+}
+.single-team:hover .team-text{opacity: 1;}
+.team-text h4 {
+  letter-spacing: 0.2em;
+}
+.team-text p{}
+.team-icon{}
+.team-icon a {
+	color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
+	border: 1px solid #fff;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+	line-height: 38px;
+	margin: 0 5px;
+	border-radius: 50%;
+}
+.team-icon a:hover {
+  color: #444;
+  background: #fff;
+}
+.team-name{}
+.team-name h4 {
+	font-size: 17px;
+	letter-spacing: 2px;
+	margin-top: 23px;
+	text-transform: uppercase;
+}
+.team-name h5 {
+	color: #888;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.single-team-2{}
+.team-info {
+	background: #fff none repeat scroll 0 0;
+	padding: 20px;
+}
+.team-info h4 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.team-info span{}
+.team-info p{}
+.team-icon a{}
+.single-team-2 .team-icon a {
+	padding: 0 7px;
+	color: #444;
+	width: inherit;
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 12px;
+	height: inherit;
+	line-height: 1;
+}

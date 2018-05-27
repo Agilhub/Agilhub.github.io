@@ -1,0 +1,53 @@
+/* brand-accordion */
+.brand-accordion{}
+.brand-accordion .panel-heading {
+  border: 0 none;
+  padding: 0;
+  position: relative;
+}
+.brand-accordion .panel-title a {
+  background-color: #03a9f4;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  display: block;
+  font-family: "Lato",sans-serif;
+  padding: 16px;
+}
+.brand-accordion .panel-title a.collapsed {
+  background-color: #eee;
+  box-shadow: none;
+  color: #202020;
+}
+.brand-accordion .panel-default {
+  border: 0 none;
+  border-radius: 0;
+}
+.brand-accordion .panel {
+  box-shadow: none;
+}
+.brand-accordion .panel-group .panel + .panel {
+  margin-top: 10px;
+}
+.icon .panel .panel-heading a::after {
+  font-family: "FontAwesome";
+  font-size: 24px;
+  height: 99%;
+  line-height: 48px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 50px;
+}
+.angle-icon .panel .panel-heading a::after {
+  content: "\f107";
+}
+.angle-icon .panel .panel-heading a.collapsed::after {
+  content: "";
+}
+.minus-icon .panel .panel-heading a::after {
+  content: "\f068";
+}
+.minus-icon .panel .panel-heading a.collapsed::after {
+  content: "\f067";
+}
