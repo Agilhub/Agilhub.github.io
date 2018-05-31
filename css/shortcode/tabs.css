@@ -4,7 +4,7 @@
   margin-right: 5px;
 }
 .custom-tab li.active a {
-  background: #03a9f4 none repeat scroll 0 0;
+  background: #138b93 none repeat scroll 0 0;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   color: #fff;
 }
@@ -15,7 +15,7 @@
   text-transform: uppercase;
 }
 .my-tab .tab-pane a {
-  color: #03a9f4;
+  color: #138b93;
 }
 .tab-2{}
 .tab-2  {}
@@ -31,7 +31,7 @@
   position: relative;
 }
 .tab-2 li a::before {
-  background: #03a9f4;
+  background: #138b93;
   bottom: 0;
   content: "";
   height: 3px;
@@ -42,4 +42,4 @@
   width: 100%;
 }
 .tab-2 li a:hover::before,.tab-2  li.active a::before{transform: scaleX(1);}
-.tab-2 li.active a{color: #03a9f4;}
+.tab-2 li.active a{color: #138b93;}

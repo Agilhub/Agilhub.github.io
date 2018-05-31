@@ -93,7 +93,7 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
   transition:.3s
 }
 .btn {
-  background-color: #03a9f4;
+  background-color: #138b93;
   border: 0 none;
   border-radius: 2px;
   color: #fff;
@@ -137,13 +137,13 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
 .pad-90{padding:90px 0}
 .pad-120{padding:120px 0}
 .radius-4{border-radius:4px}
-.bg-theme-color{background:#03A9F4;}
+.bg-theme-color{background:#138b93;}
 .white-text{color:#fff!important}
 .footer-bg{background:#252525;}
 .footer-bg-2{background:#202020;}
-.brand-bg{background:#03A9F4;}
+.brand-bg{background:#138b93;}
 .brand-color {
-  color: #03a9f4;
+  color: #138b93;
 }
 .mt-30 {
   margin-top: 30px;
@@ -192,7 +192,7 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
 .who-area-are{}
 .who-we{}
 .who-we p{}
-.who-we p a{color:#03A9F4}
+.who-we p a{color:#138b93}
 .who-we p a:hover{text-decoration:underline;}
 .title-1 {
 	text-transform: uppercase;
@@ -244,7 +244,7 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
   margin-left: -5px;
 }
 .our-skill .progress-bar {
-  background-color: #03a9f4 ;
+  background-color: #138b93 ;
   box-shadow: none;
 }
 .progress-style-2{}
@@ -261,7 +261,7 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
   text-transform: capitalize;
 }
 .progress-style-2-color .progress-bar {
-  background-color: #03a9f4;
+  background-color: #138b93;
 }
 
 .progress-style-2
@@ -342,7 +342,7 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
 	border:0;border-bottom:1px solid #ddd;
 	width:100%;transition:.3s
  }
-.input-field input:focus,.input-field textarea:focus{border-color:#03A9F4}
+.input-field input:focus,.input-field textarea:focus{border-color:#138b93}
 .input-field{}
 .input-field textarea{}
 /* 7. faq */
@@ -404,7 +404,7 @@ body {font-family: 'Lato', sans-serif;color:#444;transition:.3s;line-height: 29p
 }
 .error-content{}
 .error-content h1 {
-  color: #03a9f4;
+  color: #138b93;
   font-size: 196px;
   font-weight: 400;
   line-height: 155px;
@@ -416,7 +416,7 @@ font-size: 20px;
 margin-bottom: 35px;}
 .error-style-2{}
 .error-style-2 h1 {
-  border: 2px solid #03a9f4;
+  border: 2px solid #138b93;
   display: inline-block;
   padding: 34px;
   text-shadow: inherit;

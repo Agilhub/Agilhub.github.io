@@ -30,7 +30,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   color: #ccc;
 }
 .theme-color-hover li a:hover {
-  color: #03A9F4;
+  color: #138b93;
 }
 .latest-post li span {
   color: #ccc;
@@ -54,7 +54,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .latest-tweets li:last-child{margin-bottom:0}
 .latest-tweets li i {
-  color: #00b6f1;
+  color: #138b93;
   margin-right: 6px;
 }
 .meta {
@@ -83,7 +83,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   margin: 0;
 }
 .copyright a {
-  color: #03a9f4;
+  color: #138b93;
   text-transform: capitalize;
 }
 .footer-nav ul {
@@ -98,7 +98,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   text-transform: capitalize;
 }
 .theme-color-hover a:hover {
-  color: #03A9F4;
+  color: #138b93;
 }
 /* footer style 2 */
 .footer-widget-center{}
@@ -116,7 +116,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .footer-widget-center .social-icon a:hover {
   background: #fff none repeat scroll 0 0;
-  color:#03A9F4;
+  color:#138b93;
 }
 .footer-widget-center .social-icon a i{transform: rotate(-45deg);}
 .footer-border{border-top:1px solid #ddd}

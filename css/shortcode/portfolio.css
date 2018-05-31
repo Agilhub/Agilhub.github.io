@@ -126,7 +126,7 @@ transform: translate(15px, 15px);}
 }
 .portfolio-details span{}
 .portfolio-details span a {
-  color: #03a9f4;
+  color: #138b93;
   font-size: 15px;
   font-weight: 600;
 }
@@ -148,12 +148,12 @@ transform: translate(15px, 15px);}
   margin-right: 5px;
 }
 .portfolio-meta ul li a:hover {
-  color: #03A9F4;
+  color: #138b93;
 }
 /* portfolio filter */
 .portfolio-menu{}
 .brand-filter div.active, .brand-filter div:hover {
-  background: #03A9F4 none repeat scroll 0 0;
+  background: #138b93 none repeat scroll 0 0;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   color: #fff;
 }
